@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Steps to follow
+1) Make sure to install node and npm on your local pc
+2) in the project directory run the following commands
+-> npm i
+->npm start
+
+
 ## Available Scripts
 
 In the project directory, you can run:
