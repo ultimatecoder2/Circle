@@ -1,0 +1,150 @@
+/*
+COLORS: 
+main navbar color: #007bff
+*/
+
+*{
+    margin:0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(255,255,255,.85)
+}
+.navbar__logo{
+    height: 80px;
+}
+.NewSection{
+    padding:2rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    border-top: 1px solid #ddd;
+}
+.section__alternate{
+    background-color: #f8f8f8;
+}
+.NewSection .SectionHeading h2{
+text-align: center;
+font-size: 3rem;
+margin-bottom: 2.8rem;
+color: #f89604;
+font-weight: 450;
+}
+.SectionContent{
+    margin:3rem auto; 
+}
+.horizontalHR{
+    background-color: #000;
+    margin-bottom: 1.5rem;
+}
+.image__styles{
+    border-radius: 20px;
+}
+
+.image__section--text{
+    padding:1rem;
+}
+
+
+/*Form section*/
+.form__content__div{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:50rem;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    background-color: #f5f5f5;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.form__heading h2{
+    font-size: 3rem;
+    color: #e76432;
+    margin-bottom: 1.2rem;
+    font-weight: 380;
+}
+@media screen and (max-width: 490px){
+    .form__heading h2{
+        font-size: 2.3rem;
+
+    }
+}
+
+@media screen and (max-width: 400px){
+    .forms__section{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .form__heading h2{
+        font-size: 2rem;
+
+    }
+}
+
+.form-label{
+    font-size: 1.1rem;
+    color:#444;
+}
+
+.form__icon{
+    margin-left: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    color:#e76423;
+}
+.form-group{
+    margin-top: 2rem;
+}
+
+.form__btn{
+    margin-top:2rem;
+}
+.invalid__feedback{
+    font-size: 80%;
+    color: #dc3545;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+        /*--------------NAVBAR------------------------*/
+.NavLinks{
+    margin: 0 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:#fff;
+    opacity: 1 !important;
+}
+
+.NavLinks:hover{
+    background-color:#fff;
+    color:#007bff !important;
+}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+        /*--------------Footer------------------------*/
+
+.footerSection
+{
+    background-color: rgb(49, 49, 49);
+    color:#bbb;
+    padding:2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;   
+}
+
+.footerColumn{
+    padding:8px auto;
+    margin-bottom:1rem; 
+}
+.footerHeading{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #f89604;
+}
+.footerSection p{
+    text-align: center;
+    margin-top: 10px;
+}
